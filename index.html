@@ -1,0 +1,406 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Happy Help</title>
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap"
+            rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap"
+            rel="stylesheet" />
+    </head>
+
+    <body>
+        <div class="navbar-wrap">
+            <a class="nav-item" onclick="scroll_page(0,2050)"
+                >Products | Services</a
+            >
+            <a class="nav-item" onclick="scroll_page(0,2450)">Fundraisers</a>
+            <a class="nav-logo" href="index.html" onclick="scroll_page()"
+                ><img id="logo" alt="Happy Help" src="Images/Logo1.png" />
+            </a>
+
+            <a class="nav-item" href="index.html" onclick="scroll_page()"
+                >Happy Help</a
+            >
+
+            <a class="nav-item" href="https://landbot.site/v3/H-2198954-WVHWF2M4SY8Z2X0Q/index.html"
+                >Chatbot</a
+            >
+            <a class="nav-item" onclick="scroll_page(0, 2810)">FAQ</a>
+        </div>
+
+        <h1 id="slogan">Happy Help, We Are Happy to Help You!</h1>
+
+        <div class="topimg-scroll">
+            <div class="img_gallery_buttons">
+                <button id="prev_gallery_button" onclick="update_gallery(-1)">
+                    <img alt="Prev" src="Images/Icons/previous.png" />
+                </button>
+                <button id="next_gallery_button" onclick="update_gallery(1)">
+                    <img alt="Next" src="Images/Icons/next.png" />
+                </button>
+            </div>
+
+            <div class="slideshow">
+                <img
+                    id="topimg"
+                    alt="Image Gallery"
+                    src="https://www.planstreetinc.com/wp-content/uploads/2021/07/what-is-mental-health-1130x675.png" />
+            </div>
+        </div>
+
+        <div class="mainDiv">
+            <div class="firstMainDiv">
+                <h2>About Us</h2>
+                <div style="border-bottom: solid; padding: 5vh">
+                    <img
+                        src="Images/davidpfp.jpg"
+                        alt="David's Picture"
+                        style="
+                            float: right;
+                            width: 15em;
+                            height: 15em;
+                            margin-right: 15%;
+                            border-radius: 50%;
+                        " />
+                    <p style="font-size: 1.05em">
+                        Hey! I am David, one of the co-founders of Happy Help! I
+                        was actually the one that pitched the idea at one of our
+                        fiserv meetings, so I find it really cool that we have
+                        turned it into an actual website! I am in 7th grade,
+                        just like Clarke and Shaas, and I love trying out new
+                        things! I was the one that made the concept art and the
+                        chatbot for Happy Help. I am so grateful that I made
+                        this because of the opportunities that Fiserv has
+                        presented me by letting me into their Future FinTechies
+                        program! If you have any concerns or questions, feel
+                        free to contact me via email, at
+                        <strong>davidzea@amanaacademy.org</strong>!
+                    </p>
+                </div>
+
+                <div style="display: flex">
+                    <img
+                        src="Images/shaasgoofball.jpg"
+                        style="
+                            width: 15em;
+                            height: 15em;
+                            margin-left: 1em;
+                            border-radius: 50%;
+                            align-self: center;
+                        " />
+                    <p
+                        style="
+                            text-align: left;
+                            margin: 0px;
+                            margin-left: 30vw;
+                            padding: 3em;
+                            font-size: 1.05em;
+                        ">
+                        Hello! I am Shaas, co-founder of Happy Help, and I am
+                        deeply passionate about coding websites, apps, and
+                        games, despite being in 7th grade. Crafting the website
+                        you are exploring has been a fulfilling experience, and
+                        my time at Fiserv has provided invaluable insights into
+                        the professional workflows of software engineering. For
+                        me, coding is more than just a hobby; it is a form of
+                        self-expression and a way to bring innovative ideas to
+                        life. As I look ahead, I am excited to delve deeper into
+                        coding, explore cutting-edge technologies, and continue
+                        expanding my skills. If you are ever interested in
+                        discussing tech or have questions, do not hesitate to
+                        reach out to me at
+                        <strong>Shaaswatanraghuprakash@amanaacademy.org</strong
+                        >. Let us connect and collaborate to drive innovation
+                        forward!
+                    </p>
+                </div>
+
+                <div style="border-bottom: solid; margin-top: 3em"></div>
+
+                <div style="padding: 5em">
+                    <p
+                        style="
+                            float: left;
+                            text-align: left;
+                            margin: 0px;
+                            padding: 0px;
+                            width: 45%;
+                            font-size: 1.05em;
+                        ">
+                        Hey there! I'm Clarke, one of the co-founders behind
+                        Happy Help, a platform dedicated to making a real
+                        difference. Witnessing our idea blossom from a pitch to
+                        a fully functional website has been an incredibly
+                        surreal journey. In 7th grade, alongside David and
+                        Shaas, I've been immersed in the thrill of concepts. My
+                        job for this website was to come up with a logo and
+                        innovate ways to help others such as mental health care
+                        that many people don’t have. The opportunity to
+                        participate in Fiserv's Future FinTechies program has
+                        been nothing short of transformative, opening doors to
+                        endless possibilities. If you would like to contact me,
+                        you can at,
+                        <strong>clarkebradley@amanaacademy.org</strong>!
+                    </p>
+
+                    <img
+                        src="Images/caseohcarlcheezer.png"
+                        style="
+                            width: 15em;
+                            height: 15em;
+                            margin-left: 18%;
+                            border-radius: 50%;
+                        " />
+                </div>
+            </div>
+
+            <div class="secondMainDiv">
+                <h2>Products And Services</h2>
+
+                <img
+                    src="Images/productsservices.jpg"
+                    style="width: 20em; margin-left: 6vw" />
+
+                <p style="float: right; font-size: 1.05em">
+                    At Happy Help, we're passionate about empowering you to live
+                    your best life, both online and offline. Our innovative VPN
+                    service not only ensures your online activities remain
+                    private and secure but also unlocks a world of possibilities
+                    by bypassing geo-restrictions and censorship. With our
+                    Mental Health Therapy services, our dedicated team of
+                    professionals provides compassionate support and
+                    evidence-based interventions to help you navigate life's
+                    challenges and cultivate resilience. Furthermore, our
+                    cutting-edge Malware + Antivirus Detection software provides
+                    proactive protection against cyber threats, keeping your
+                    devices and personal information safe from harm. We take
+                    pride in developing solutions that not only prioritize your
+                    happiness but also enhance your digital well-being and
+                    mental health. At Happy Help, we're more than just a service
+                    provider; we're your steadfast ally in achieving a happier,
+                    healthier, and safer life. Trust Happy Help, where we're
+                    always eager to go above and beyond to assist you!
+                </p>
+
+                <a
+                    href="products.html"
+                   id="productsbutton"
+                    style="
+                        margin-left: 81.5vw;
+                        border: solid;
+                        padding: 1em;
+                        margin-top: 10vh;
+                        text-decoration: none;
+                    "
+                    >Learn More</a
+                >
+            </div>
+
+            <div class="thirdMainDiv">
+                <h2>Fundraisers</h2>
+
+                <img
+                    src="Images/fundraiserimg.jpeg"
+                    style="width: 10em; margin-right: 12vw; float: right" />
+
+                <p style="margin: 0px; 1.5em;">
+                    Welcome to our donation section, where you have the
+                    opportunity to contribute to fundraisers aimed at spreading
+                    happiness to those in need. Your generosity fuels our
+                    mission as we allocate the funds received to support a
+                    diverse range of causes. From initiatives like The Sandwich
+                    Project, providing meals for the homeless, to organizations
+                    like Hope Atlanta, dedicated to assisting individuals facing
+                    homelessness, every donation you make has a direct impact on
+                    improving lives and fostering hope in our communities. Your
+                    support enables us to make a meaningful difference in the
+                    lives of those facing various challenges. By donating to our
+                    fundraisers, you join us in our commitment to creating
+                    positive change and uplifting those in need. Together, we
+                    can continue to spread happiness, offer assistance, and
+                    bring light to the lives of individuals and families across
+                    our communities. Thank you for your generosity and for
+                    beinga part of our mission to make the world a better place,
+                    one donation at a time.
+                </p>
+            </div>
+
+            <div class="fourthMainDiv">
+                <h2 style="margin: 0px">Frequently Asked Questions</h2>
+
+                <details>
+                    <summary>What is Happy Help?</summary>
+                    <p>
+                        Happy Help is a platform designed to connect people who
+                        want to make a difference with opportunities to support
+                        a wide range of causes. Whether you're passionate about
+                        environmental conservation, social justice, education,
+                        healthcare, or any other cause, HappyHelp provides a
+                        platform for you to get involved and contribute to
+                        meaningful projects and initiatives.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>How does Happy Help work?</summary>
+                    <p>
+                        Happy Help partners with organizations and individuals
+                        who are leading initiatives aimed at creating positive
+                        change in the world. Through our platform, users can
+                        discover these projects, learn about their goals and
+                        impact, and contribute to fundraising efforts. From
+                        donating money to volunteering time and skills, there
+                        are many ways to get involved and support causes you
+                        care about through Happy Help.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        What kinds of causes does Happy Help support?
+                    </summary>
+                    <p>
+                        Happy Help supports a diverse range of causes and
+                        initiatives, including but not limited to environmental
+                        conservation, humanitarian aid, animal welfare,
+                        healthcare, education, community development, and social
+                        justice. We believe in the power of collective action to
+                        address pressing issues and create a brighter future for
+                        all.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>How can I get involved with Happy Help?</summary>
+                    <p>
+                        Getting involved with Happy Help is easy! Simply visit
+                        our platform to explore the various causes and projects
+                        seeking support. You can learn more about each
+                        initiative, donate funds, volunteer your time and
+                        skills, or even start your own fundraising campaign to
+                        support a cause that's close to your heart.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Is Happy Help a global platform?</summary>
+                    <p>
+                        Yes, HappyHelp is a global platform that welcomes users
+                        from all over the world to come together and make a
+                        difference. We believe that positive change knows no
+                        boundaries, and by connecting individuals and
+                        communities across the globe, we can amplify our impact
+                        and create lasting change on a global scale.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>Is my donation secure on Happy Help?</summary>
+                    <p>
+                        Absolutely. HappyHelp takes the security of donations
+                        and personal information very seriously. We use
+                        industry-standard encryption and security measures to
+                        ensure that your transactions are safe and secure.
+                        Additionally, we work closely with trusted payment
+                        processors to process donations securely and
+                        efficiently.
+                    </p>
+                </details>
+
+                <details>
+                    s
+                    <summary>
+                        Can I track the impact of my donations on Happy Help?
+                    </summary>
+                    <p>
+                        Yes, transparency and accountability are important
+                        values for us at Happy Help. We provide regular updates
+                        and reports on the progress and impact of the projects
+                        and initiatives supported through our platform. You can
+                        see how your donations are making a difference and track
+                        the positive change you're helping to create in the
+                        world.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        How can organizations and individuals partner with Happy
+                        Help?
+                    </summary>
+                    <p>
+                        If you're leading a project or initiative that aligns
+                        with Happy Help's mission, we'd love to hear from you!
+                        Organizations and individuals can reach out to us to
+                        discuss potential partnership opportunities and how we
+                        can collaborate to amplify your impact and reach more
+                        people in need.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        Is Happy Help only about fundraising, or do you offer
+                        other forms of support?
+                    </summary>
+                    <p>
+                        While fundraising is a key aspect of what we do, Happy
+                        Help is also committed to providing support and
+                        resources to individuals and communities in need.
+                        Whether it's raising awareness about important issues,
+                        connecting people with volunteering opportunities, or
+                        providing educational resources, we strive to support
+                        causes in diverse ways beyond just fundraising.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        How can I stay updated on the latest news and
+                        initiatives from Happy Help?
+                    </summary>
+                    <p>
+                        To stay updated on the latest news, initiatives, and
+                        opportunities to get involved with Happy Help, be sure
+                        to follow us on social media and subscribe to our
+                        newsletter. You'll receive regular updates, inspiring
+                        stories, and information on how you can make a
+                        difference and spread happiness through your actions.
+                    </p>
+                </details>
+
+                <details>
+                    <summary>
+                        What is the most important goal you're trying to
+                        achieve?
+                    </summary>
+                    <p>
+                        Our most important goal we are trying to achieve is
+                        spreading education around the world. At Happy Help, we
+                        believe that education is a fundamental human right and
+                        a powerful tool for empowering individuals and
+                        communities to break the cycle of poverty, achieve their
+                        full potential, and create positive change in their
+                        lives and the world around them.
+                    </p>
+                </details>
+            </div>
+        </div>
+        <script src="scripts.js"></script>
+    </body>
+</html>

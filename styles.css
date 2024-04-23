@@ -1,0 +1,257 @@
+body {
+    background-color: #ffdd66;
+    overflow: scroll;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
+    font-family: Happy Monkey, Arial;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 1.05em;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    margin: 0px;
+    padding: 0px;
+}
+
+a {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.navbar-wrap {
+    overflow: hidden;
+    display: flex;
+    margin: 0px;
+    margin-top: 0.5vw;
+    display: flex;
+    gap: 4%;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-self: center;
+    justify-content: center;
+}
+
+.nav-item {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    margin: 0px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+#logo {
+    width: 12vw;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    align-self: center;
+}
+
+.navbar-wrap a h2 {
+    font-size: 16px;
+}
+
+
+#slogan {
+    margin: 5vw;
+    margin-left: 25vw;
+}
+
+.topimg-scroll {
+    /**overflow: hidden;**/
+}
+
+.img_gallery_buttons {
+    position: absolute;
+    z-index: 1;
+    margin-top: 20vw;
+    margin-left: 4vw;
+    padding: 0px;
+    display: flex;
+    gap: 85.9vw;
+    border: none;
+    background: none;
+}
+
+#prev_gallery_button {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+#next_gallery_button {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+.img_gallery_buttons img {
+    width: 4vw;
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffdd66;
+}
+
+#topimg {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 0px;
+    align-self: center;
+    text-align: center;
+    z-index: 0;
+    border: none;
+    border-radius: 15px;
+}
+
+#context {
+    align-self: center;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    margin-top: 3vh;
+    margin-bottom: 10vh;
+}
+
+.mainDiv {
+    padding: 0px;
+    margin: 0px;
+}
+
+.firstMainDiv {
+    width: 100%;
+    font-size: 15px;
+}
+
+.mainDiv h2 {
+    text-align: center;
+    padding: 10px;
+    font-family: roboto;
+    font-weight: bolder;
+}
+
+.firstMainDiv p {
+    padding: 25px;
+    margin: 0px;
+    width: 45%;
+    text-align: left;
+    font-size: 0.7em;
+    font-family: Raleway, roboto, sans-serif;
+}
+
+.secondMainDiv {
+    background-color: #87e7ff;
+    height: 30em;
+}
+
+.secondMainDiv p {
+    display: flex;
+    flex-direction: row;
+}
+
+.secondMainDiv p {
+    padding: 1em;
+    margin: 0px;
+    margin-right: 3em;
+    margin-left: auto;
+    width: 45%;
+    text-align: justify;
+    font-size: 0.8em;
+    font-family: Raleway, roboto, sans-serif;
+}
+
+.secondMainDiv img {
+    width: auto;
+}
+
+.thirdMainDiv {
+    width: 100%;
+    font-size: 1em;
+    background-color: #f9d5f9;
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.thirdMainDiv p {
+    padding: 25px;
+    width: 50%;
+    font-family: Raleway, roboto, sans-serif;
+    text-align: justify;
+}
+
+.fourthMainDiv {
+    width: 100%;
+    font-size: 1.05em;
+    background-color: #ffa439;
+    flex-direction: row;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.fourthMainDiv p {
+    padding: 25px;
+    margin: 0px;
+    font-size: 15px;
+    text-align: justify;
+    font-size: 0.95em;
+}
+
+details {
+    margin: 1vw;
+    margin-left: 8vw;
+    border: solid;
+    border-width: 13px;
+    background-color: aliceblue;
+    border-color: aliceblue;
+    width: 80vw;
+    display: block;
+    transition: height 400ms ease-out;
+}
+
+details > summary {
+  list-style: none;
+}
+
+details > summary::marker, /* Latest Chrome, Edge, Firefox */ 
+details > summary::-webkit-details-marker /* Safari */ {
+  display: none;
+}
+
+.fourthMainDiv summary:hover {
+    cursor: pointer;
+}
+
+
